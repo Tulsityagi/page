@@ -1,0 +1,206 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.main
+{
+    min-height: 100vh;
+}
+.margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Container{
+    max-width: 80vw;
+    
+}
+.flex{
+    display: flex;
+    background-color: pink;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    height: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.navbar li{
+  list-style: none;
+  margin: 0 12px;
+
+}
+.navbar li:hover{
+    color: rgb(220, 32, 95) ;
+    cursor: pointer;
+}
+.logo{
+    position: relative;
+    font-size: 35px;
+    color: rgb(220, 32, 95);
+    text-decoration: none;
+    font-weight: 600;
+}
+.topleft{
+    width: 50%;
+}
+.topleft h1{
+    color: rgb(220, 32, 95);
+    text-align: center;
+}
+.topleft p{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.topright{
+    width:50%;
+}
+.section1{
+ height: 50vh;
+ background:url(030f8e2a-a788-483c-aef3-71ac33f17aa1.jpg) ;
+}
+.flex1{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+
+.flexcol{
+    flex-direction: column;
+}
+.fontbold
+{
+    font-weight: bold;
+}
+.btn :hover{ 
+    cursor: pointer;
+    color: #f4f2f2;
+    background-color: rgb(220, 32, 95);
+}
+.image{
+    
+    border-radius: 2px;
+    padding-left: 10%;
+    padding-top: 5%;
+   
+}
+.section2{
+    background:url(030f8e2a-a788-483c-aef3-71ac33f17aa1.jpg) ;
+    height: 150vh;
+}
+.serv h2{
+     text-align: center;
+     color: rgb(220, 32, 95);
+}
+.serv h5{
+    text-align: center;
+}
+.hii{
+    width: 50%;
+    text-align: center;
+}
+.hii h3{
+    padding-top: 5%;
+    color: rgb(220, 32, 95);
+}
+.hii p{
+    padding-top: 8px;
+    padding-left: 20px
+}
+.iMG1{
+    margin-left: 7%;
+    height: 30px;
+
+}
+.btn1{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(220, 32, 95);
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20%;
+}
+.btn1:hover{
+    color: rgb(220, 32, 95);
+    background-color: white;
+   
+}
+.h1{
+    padding-left: 60%;
+    padding-top: 5% ;
+}
+.h1 h3{
+    text-align: center;
+    color: rgb(220, 32, 95);
+}
+.h1 p{
+    text-align: center;
+}
+.iMG{
+    padding-left: 13%;
+}
+.btn2{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(220, 32, 95);
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35%;
+}
+.btn2:hover{
+    color: rgb(220, 32, 95);
+    background-color: white;
+}
+.footer{
+    min-height: 50vh;
+    background: rgb(248, 204, 211);
+}
+.helo{
+    font-size: 200%;
+    color: rgb(220, 32, 95);
+    font-weight: 800;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(244, 164, 191);
+    
+}
+.contact-list{
+    margin-bottom: 3rem;
+    margin: 0 400px;
+}
+.contact-list li{
+   align-items: center;
+   margin-top: 20px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color: rgb(220, 32, 95);
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li:hover{
+  color: #000;
+    cursor: pointer;
+}
+.jp{
+   margin-left: 38%;
+   margin-top: 3%;
+}
+
